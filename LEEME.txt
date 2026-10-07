@@ -1,0 +1,11 @@
+ANUBIS Servicios Médicos — versión mejorada
+
+1. Descomprime la carpeta completa.
+2. Abre la carpeta en VS Code.
+3. Abre index.html en tu navegador o utiliza Live Server.
+
+Para actualizar tu hosting, sube index.html, style.css, script.js y la carpeta img juntos. El ZIP no publica la web por sí solo.
+
+Se conservaron los textos, datos de contacto, fotografías, logo y enlaces originales. Se mejoraron diseño adaptable, navegación con teclado, menú móvil y presentación de la galería.
+
+La fuente Inter requiere internet; sin conexión se utiliza Arial.

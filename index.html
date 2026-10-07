@@ -13,15 +13,16 @@
 </head>
 
 <body id="inicio">
+<a class="saltar" href="#contenido-principal">Saltar al contenido</a>
 
     <header>
-       <div class="logo">
+       <a class="logo" href="#inicio" aria-label="ANUBIS — Inicio">
     <img src="img/logotipo anubis.jpeg" alt="ANUBIS Servicios Médicos">
-</div>
-<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+</a>
+<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal" type="button">
     ☰
 </button>
-        <nav>
+        <nav id="menu-principal" aria-label="Navegación principal">
             <a href="#inicio">Inicio</a>
             <a href="#nosotros">Nosotros</a>
             <a href="#servicios">Servicios</a>
@@ -30,13 +31,13 @@
         </nav>
 
        <a href="https://wa.me/18096706124?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20coordinar%20una%20jornada%20m%C3%A9dica%20para%20mi%20empresa."
-   target="_blank"
+   target="_blank" rel="noopener noreferrer"
    class="boton-cita">
     Agendar cita
 </a>
     </header>
 
-    <main>
+    <main id="contenido-principal">
 
     <section class="principal">
 
@@ -53,7 +54,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 
 
               <a href="https://wa.me/18096706124?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20coordinar%20una%20jornada%20m%C3%A9dica%20para%20mi%20empresa."
-   target="_blank"
+   target="_blank" rel="noopener noreferrer"
    class="boton-principal">
     Agenda tu jornada
 </a>
@@ -175,7 +176,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
     <div class="galeria-jornadas">
 
     <div class="foto-jornada foto-grande">
-    <img src="./img/jornada1.jpeg" alt="Jornada médica de ANUBIS">
+    <img loading="lazy" decoding="async" src="./img/jornada1.jpeg" alt="Jornada médica de ANUBIS">
 
     <div class="foto-info">
         <span>ANUBIS</span>
@@ -184,7 +185,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 </div>
 
     <div class="foto-jornada">
-    <img src="./img/jornada2.jpeg" alt="Jornada médica empresarial">
+    <img loading="lazy" decoding="async" src="./img/jornada2.jpeg" alt="Jornada médica empresarial">
 
     <div class="foto-info">
         <span>PREVENCIÓN</span>
@@ -193,7 +194,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 </div>
 
    <div class="foto-jornada">
-    <img src="./img/jornada3.jpeg" alt="Atención médica de ANUBIS">
+    <img loading="lazy" decoding="async" src="./img/jornada3.jpeg" alt="Atención médica de ANUBIS">
 
     <div class="foto-info">
         <span>ATENCIÓN</span>
@@ -202,7 +203,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 </div>
 
 <div class="foto-jornada">
-    <img src="./img/jornada4.jpeg" alt="Servicios médicos de ANUBIS">
+    <img loading="lazy" decoding="async" src="./img/jornada4.jpeg" alt="Servicios médicos de ANUBIS">
 
     <div class="foto-info">
         <span>BIENESTAR</span>
@@ -211,7 +212,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 </div>
 
     <div class="foto-jornada">
-    <img src="./img/jornada5.jpeg" alt="Jornada de salud de ANUBIS">
+    <img loading="lazy" decoding="async" src="./img/jornada5.jpeg" alt="Jornada de salud de ANUBIS">
 
     <div class="foto-info">
         <span>PREVENCIÓN</span>
@@ -223,7 +224,7 @@ para cuidar la salud y el bienestar de tus colaboradores.
 
     <div class="accion-jornadas">
         <a href="https://wa.me/18096706124?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20coordinar%20una%20jornada%20m%C3%A9dica%20para%20mi%20empresa."
-           target="_blank"
+           target="_blank" rel="noopener noreferrer"
            class="boton-principal">
             Agenda una jornada para tu empresa
         </a>
@@ -261,14 +262,12 @@ para cuidar la salud y el bienestar de tus colaboradores.
 </a>
 
           <a href="https://wa.me/18096706124?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20coordinar%20una%20jornada%20m%C3%A9dica%20para%20mi%20empresa."
-   target="_blank"
+   target="_blank" rel="noopener noreferrer"
    class="contacto-tarjeta contacto-whatsapp">
 
     <span>💬</span>
     <h3>WhatsApp</h3>
     <p>809-670-6124</p>
-
-</a>
 
 </a>
 
@@ -302,12 +301,12 @@ para cuidar la salud y el bienestar de tus colaboradores.
             <p>809-670-6124</p>
 
             <a href="https://wa.me/18096706124?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20coordinar%20una%20jornada%20m%C3%A9dica%20para%20mi%20empresa."
-               target="_blank">
+               target="_blank" rel="noopener noreferrer">
                 WhatsApp
             </a>
 
             <a href="https://www.instagram.com/anubis_serviciosmedicos/"
-               target="_blank">
+               target="_blank" rel="noopener noreferrer">
                 Instagram
             </a>
         </div>
